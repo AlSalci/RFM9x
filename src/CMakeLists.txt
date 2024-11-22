@@ -17,8 +17,6 @@ pico_sdk_init()
 
 add_executable(${PROJECT_NAME}
     main.cpp
-    LCD.cpp
-    Distance_Sensor.cpp
     SPI.cpp
    RFM9x.cpp
     
