@@ -54,7 +54,7 @@ int main()
     spi_set_format(master.spi_instance, 8, SPI_CPOL_0, SPI_CPHA_0,SPI_MSB_FIRST);
         
     
-    bool reciever = false;
+    bool reciever = false; //Switch this value to go between transmitter and Reciever
 
     if(reciever == false )
     {
